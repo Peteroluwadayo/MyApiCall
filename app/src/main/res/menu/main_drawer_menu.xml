@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_youtube"
+            android:icon="@drawable/ic_baseline_youtube_searched_for_24"
+            android:title="Youtube"/>
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+
+        <item android:id="@+id/nav_search"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="Search"/>
+
+        <item android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings"/>
+
+        <item android:id="@+id/nav_game"
+            android:icon="@drawable/ic_baseline_games_24"
+            android:title="Game Development"/>
+
+        <item android:id="@+id/nav_forex"
+            android:icon="@drawable/ic_baseline_games_24"
+            android:title="Forex Analytics"/>
+
+        <item android:id="@+id/nav_mobile"
+            android:icon="@drawable/ic_baseline_mobile_screen_share_24"
+            android:title="Mobile Development"/>
+
+        <item android:id="@+id/nav_layout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Logout"/>
+
+
+    </group>
+
+</menu>

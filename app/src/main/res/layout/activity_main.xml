@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="350dp"
+       android:layout_height="200dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="20sp"
+       android:scaleType="fitXY"
+       android:background="@drawable/image_lekki"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_signupM"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#4CAF50"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_loginM"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#B771C3"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+</LinearLayout>
